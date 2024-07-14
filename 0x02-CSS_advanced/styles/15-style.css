@@ -354,8 +354,6 @@ template {
   box-sizing: border-box;
 }
 
-/* Add custom styles here*/
-
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
