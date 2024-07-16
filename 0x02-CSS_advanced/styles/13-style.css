@@ -64,23 +64,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #161616;
-  text-decoration: none;
-}
-
-a[href]:link {
   color: var(--text-color);
   text-decoration: none;
 }
 
-a[href]:visited {
-  font-style: italic;
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
-a[href]:hover {
+a:visited {
+ font-style: italic;
+}
+
+a:hover {
   text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
   background-color: var(--color-light-grey);
 }
