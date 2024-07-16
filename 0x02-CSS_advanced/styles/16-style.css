@@ -405,7 +405,7 @@ html {
 
 .container {
   width: 960px;
-  margin: 0 0;
+  margin: auto 0;
 }
 
 .card-category {
